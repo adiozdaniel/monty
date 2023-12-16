@@ -10,23 +10,33 @@
 * Stack operations
 * Queue operations
 
+## Learning Objectives
 
-## Linter
+* What do LIFO and FIFO mean
+* What is a stack, and when to use it
+* What is a queue, and when to use it
+* What are the common implementations of stacks and queues
+* What are the most common use cases of stacks and queues
+* What is the proper way to use global variables
 
-### pycodestyle
+## Data structures
 
-Make sure you have pycodestyle installed!
-To install use:
-
-* ```$ pip install pycodestyle```
-To check for syntax errors:
-
-* ```pycodestyle --first *.py```
-* ```pycodestyle --show-source --show-pep8 *.py```
-* ```pycodestyle --statistics -qq *.py```
-
-## ![witch](files/witch.svg)
-
-![witches](files/witches.svg)
+```C
+/**
+ * struct stack_s - doubly linked list representation of a stack (or queue)
+ * @n: integer
+ * @prev: points to the previous element of the stack (or queue)
+ * @next: points to the next element of the stack (or queue)
+ *
+ * Description: doubly linked list node structure
+ * for stack, queues, LIFO, FIFO
+ */
+typedef struct stack_s
+{
+        int n;
+        struct stack_s *prev;
+        struct stack_s *next;
+} stack_t;
+```
 
 ![greeting](files/greeting.svg)
