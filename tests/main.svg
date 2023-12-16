@@ -1,0 +1,25 @@
+<svg fill="none" viewBox="0 0 350 60" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
+    <foreignObject width="100%" height="100%">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+ <style>
+                h1 {
+                    animation: titles 2s infinite;
+                    font-style: bold;
+                    text-wrap: nowrap;
+                }
+
+                @keyframes titles {
+                    from {
+                        color: burlywood;
+                    }
+                    to {
+                        color: #361001;
+                    }
+                }
+            </style>
+            <span>
+                <h1> 0x19. C - Stacks, Queues - LIFO, FIFO </h1>
+            </span>
+        </div>
+    </foreignObject>
+</svg>
