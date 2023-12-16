@@ -3,7 +3,7 @@
 /**
  * add - Adds the top two elements of a stack, stores the result in the
  * second top element and removes the top element
- * @stack: The stack
+ * @stack: The stacks to be added
  * @line_number: The line number where add opcode executed
  */
 void add(stack_t **stack, unsigned int line_number)
